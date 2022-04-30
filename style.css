@@ -42,3 +42,48 @@ a {
     margin-left: 0.9em;
 }
 
+.col img {
+    width: 430px;
+    height: 200px;
+    margin-top: 1em;
+}
+
+button {
+    position: relative;
+    left: 1020px;
+    bottom: 1060px;
+    color: purple;
+    background-color: ghostwhite;
+    border-radius: 25px;
+    border-color: purple;
+}
+
+button:hover {
+    color: green;
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 400px;
+    bottom: 780px;
+    width: 500px;
+}
+
+h2 {
+    display: flex;
+    position: relative;
+    color: purple;
+    width: 400px;
+    left: 850px;
+    bottom: 1160px;
+}
+
+#continue {
+    position: relative;
+    bottom: 880px;
+    left: 845px;
+    border: none;
+}
