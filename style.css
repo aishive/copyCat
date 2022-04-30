@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    position: relative;
+    left: 60px;
+    color: purple;
+    font-size: 74px;    
+}
+
+nav li {
+    display: inline-block;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.input-group-lg {
+    display: flex;
+    position: relative;
+    bottom: 170px;
+    left: 300px;
+    width: 50%;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    row-gap: 10px;
+    align-self: flex-end;
+}
+
+.globe img {
+    width: 800px;
+    height: 500px;
+    margin-left: 0.9em;
+}
+
